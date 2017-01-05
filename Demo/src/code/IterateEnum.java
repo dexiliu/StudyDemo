@@ -10,7 +10,7 @@ public class IterateEnum {
 		}
 		System.out.println(dataSourceTypes);
 		if(dataSourceTypes.contains("DS_yxyz")){
-			System.out.println("DS_yxyz");
+			System.out.println("DS_yxfx");
 		}
 	}
 
