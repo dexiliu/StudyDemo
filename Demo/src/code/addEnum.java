@@ -24,6 +24,9 @@ public class addEnum {
 		System.out.println(Arrays.deepToString(DataSourceType.values()));
 		DataSourceType dst = DataSourceType.valueOf("DS_yxyz");
 		System.out.println("====="+dst);
+		
+		DataSourceType[] d=DataSourceType.values();
+		System.out.println(d.length);
 	}
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })

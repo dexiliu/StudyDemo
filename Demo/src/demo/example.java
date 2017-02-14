@@ -6,9 +6,11 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -19,7 +21,7 @@ public class example {
 	 * @throws ParseException 
 	 */
 	public static void main(String[] args) throws ParseException {
-		try {
+		/*try {
 			RandomAccessFile raf = new RandomAccessFile("src/code/DataSourceType.java","rw");
 			byte[] b = new byte[1024];
 			b = "    ,DS_ljyz//龙颈一中\r\n }".getBytes();
@@ -30,13 +32,17 @@ public class example {
 			raf.close();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
+		}*/
 		Map<String,String> map = new HashMap<>();
 		map.put("a", "aaa");
 		map.put("b", "bbb");
 		String c="c";
 		Set<String> ss = map.keySet();
 		System.out.println(ss.contains(c));
+		System.out.println(map.size());
+		Collection<String> s= map.values();
+		System.out.println(s);
+		
 	}	
 	
 	public static double numberWithPrecision(double value, int precision) {

@@ -36,7 +36,7 @@ public class JPGComposeZJZX {
 				bg.drawImage(stuImage, 245, 330, 260, 370, null);//学生证模板与学生照片合成
 				bg.setColor(Color.BLACK); // 设置字体颜色
 				bg.setFont(new Font("黑体", Font.BOLD, 60));// 设置字体格式
-				bg.drawString("司同祖", 350, 790);//三个字350，两个字380，四个字320
+				bg.drawString("老司机", 350, 790);//三个字350，两个字380，四个字320
 				bg.setFont(new Font("黑体", Font.PLAIN, 60));
 				bg.drawString("G201401011", 305, 880);
 				bg.dispose();

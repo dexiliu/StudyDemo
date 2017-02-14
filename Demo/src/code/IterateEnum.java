@@ -12,6 +12,12 @@ public class IterateEnum {
 		if(dataSourceTypes.contains("DS_yxyz")){
 			System.out.println("DS_yxfx");
 		}
+		try{
+			DataSourceType.valueOf("DS_fdh");
+			System.out.println(true);
+		}catch(Exception e){
+			System.out.println(false);
+		}
 	}
 
 }
